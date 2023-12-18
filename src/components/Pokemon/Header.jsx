@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingTop: 40,
+    paddingTop: 5,
   },
   name: {
     color: "#fff",
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    top: 20,
+    top: 10,
   },
   image: {
     width: 250,

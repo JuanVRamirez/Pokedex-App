@@ -17,7 +17,10 @@ export default function PokedexNavigation() {
         name="Pokemon"
         component={Pokemon}
         options={{
-          headerShown: false,
+          headerShown: true,
+          headerTransparent: true,
+          title: "",
+          headerTintColor: "white",
         }}
       />
     </Stack.Navigator>
